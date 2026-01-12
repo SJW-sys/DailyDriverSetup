@@ -8,7 +8,7 @@ I have been a long time Windows user since 95 on my grandparents dial up, but ch
 I have had several shoulder rubs with Linux over the years with attempting to use it as a daily driver (not to mention professional or homelab server experince), but mostly its always fallen off for me after a few weeks do to the complexity of gaming in general, Nividia drivers, and many version of common anticheats not running on linux. Gaming has always won (critical way I keep up with a few freinds over the years), so windows was been constant compainion. With the age of [Proton Compatibility Layer](https://github.com/ValveSoftware/Proton) being driven by valve and [others](https://github.com/GloriousEggroll/proton-ge-custom), the privacy concerns of [windows](https://www.privacyguides.org/en/os/windows/#privacy-notes) and the general [enshitification](https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2) of windows OS.
 
 ### Primary Needs from my distro of choice -
-  - While I love to play with tech and push it till it breaks, I want something that just works when I sit down to use it. So I need Reliability and Support (Community and developer).
+  - While I love to play with tech and push it till it breaks, I want something that just works when I sit down to use it. So I need Reliability, Support (Community and developer) and something that just works out of the box.
   - Gaming Support
   - Dual monitor and 144hz support
   - Support, or adjacent tooling, that supports a few of my most favorite programs. IE. VScode, Scrivner, Brave Browser, etc.
@@ -17,7 +17,7 @@ I have had several shoulder rubs with Linux over the years with attempting to us
 Pop OS - 2025-01-01 till 2025-11-01 - overall went with this due to its "up and coming" hotness, wide recommendation for gaming, continuious support and development, lots of community support and similarity to windows GUI. </br>
   - Why move on: I moved on less because of my issues, granted I did have some, and more becasue of better longstanding history, support and reliability of my next distro. </br>
   
-Linux Mint - 2025-11-02 till now - my attention was grabed by a dedicated nividia driver manager, more customization, better software updater (granted I have a habit of just doing it via cli) and better support for 144hz monitors.
+Linux Mint - 2025-11-02 till now - with this shift, both my machined (laptop & desktop) have been shifted to this my attention was grabed by a dedicated nividia driver manager, more customization, better software updater (granted I have a habit of just doing it via cli) and better support for 144hz monitors.
 
 ## Script History:
 This project while new to github, has been around for about 10 years starting with some simple powershell scripting. It evolved alot as my needs grew, even existing as a unatteneded-install deployment for windows machines for awhile. But now it sits in its current iteration.
