@@ -182,20 +182,19 @@ Main_Menu() {
             case $option in
                 1) Install_Base_Security ;;
                 2) Install_Functions_From_File_Menu ;;
-                3) Configure_Chrony ;;
-                4) Lockdown_SSH ;;
-                5) Install_Docker_Portainer ;;
-                6) Setup_NFS_Share ;;
-                7) Install_Powertop ;;
-                8) Install_Wazuh_Agent ;;
-                9) Add_Users_Groups ;;
-                10) Add_User_To_SUDO ;;
-                11) Install_Jellyfin ;;
-                12) Install_Intel_Drivers ;;
-                13) Install_Nvidia_Drivers ;;
-                14) Install_Qemu_Guest_Agent ;;
-                15) Setup_Template_For_PVE ;;
-                16) echo "Exiting..."; Closeout_System ;;
+                3) Lockdown_SSH ;;
+                4) Install_Docker_Portainer ;;
+                5) Setup_NFS_Share ;;
+                6) Install_Powertop ;;
+                7) Install_Wazuh_Agent ;;
+                8) Add_Users_Groups ;;
+                9) Add_User_To_SUDO ;;
+                10) Install_Jellyfin ;;
+                11) Install_Intel_Drivers ;;
+                12) Install_Nvidia_Drivers ;;
+                13) Install_Qemu_Guest_Agent ;;
+                14) Setup_Template_For_PVE ;;
+                15) echo "Exiting..."; Closeout_System ;;
                 *) echo "Invalid option: $option" ;;
             esac
         done
