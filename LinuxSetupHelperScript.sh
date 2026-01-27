@@ -29,8 +29,7 @@
 ##############################################
 
 #Defaults are set
-LocalUser="$(whoami)"
-BaseBulkInstallFileDir="/home/$LocalUser/DailyDriverSetup/HelperScriptFiles/InstallFiles"
+BaseBulkInstallFileDir="$PWD/DailyDriverSetup/HelperScriptFiles/InstallFiles"
 ScriptLogFilePath="/var/log/Linux_Setup_Helper_Script.log"
 
 ##############################################
