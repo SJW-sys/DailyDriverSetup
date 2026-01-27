@@ -4,12 +4,3 @@ com.github.tchx84.Flatseal
 org.libreoffice.LibreOffice
 md.obsidian.Obsidian
 com.brave.Browser
-org.mozilla.Thunderbird
-com.discordapp.Discord
-io.freetubeapp.FreeTube
-app.tintero.Tintero
-com.obsproject.Studio
-com.github.wwmm.pulseeffects
-com.github.Matoking.protontricks
-com.heroicgameslauncher.hgl
-org.kiwix.desktop
