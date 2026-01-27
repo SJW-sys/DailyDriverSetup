@@ -469,7 +469,7 @@ Install_Functions_From_File_Menu() {
     esac
 
     #Call the main installer function now that InstallType is selected
-    InstallFunctionsFromFile
+    Install_Functions_From_File
 }
 
 # Function: Setup FlatHub for flatpak installs
