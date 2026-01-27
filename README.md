@@ -38,18 +38,22 @@ AI was used to speed up scripting (~10-15%), primarily to script out the bulk in
 ## Setup
 
 ### Requirements:
+- **IMPORTANT** always review any code you plan to execute from the web, I recommend in a test space first.
 - Debian based linux system
 - sudo installed
+- git installed
 
 ### Workflow:
 
 1) clone git repository to your local machine in your home directory
 
+> git clone https://github.com/SJW-sys/DailyDriverSetup.git
+
 2) modify the install files with the desired installs you want. **IMPORTANT** these files are expecting one package per a line in the files.
 
 3) run the script, its expecting to run with sudo permissions
 
-  sudo shell LinuxSetupHelperScript.sh
+> sudo shell LinuxSetupHelperScript.sh
 
 4) follow prompts for setup of your environment
 
