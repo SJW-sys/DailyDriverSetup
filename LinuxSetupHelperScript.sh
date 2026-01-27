@@ -30,7 +30,7 @@
 
 #Defaults are set
 LocalUser="$(whoami)"
-BaseBulkInstallFileDir="~/DailyDriverSetup/HelperScriptFiles/InstallFiles/"
+BaseBulkInstallFileDir="/home/$LocalUser/DailyDriverSetup/HelperScriptFiles/InstallFiles/"
 ScriptLogFilePath="/var/log/Linux_Setup_Helper_Script.log"
 
 ##############################################
