@@ -99,7 +99,7 @@ Welcome_Message() {
     echo 'While ansible, terraform and packer, might be used in homelab, I love to have a setup helper for desktops'
     echo '  or in the event of needing to setup a server quickly.'
     echo '================================================================================================================='
-    echo ' [skip system wait by hitting ctrl+c]'
+    echo ' [exit by hitting ctrl+c]'
     sleep 18
 }
 
