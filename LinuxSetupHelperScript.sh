@@ -1205,9 +1205,9 @@ Closeout_System() {
     echo "System will reboot after all processes finish..."
     echo "Ensuring all process finish..."
     wait
-    echo "============================="
+    echo "==============================="
     echo "COMPLETED"
-    echo "============================="
+    echo "==============================="
     echo "Rebooting..."
     echo "You have 90 sec to cancel this reboot process."
     sleep 90
