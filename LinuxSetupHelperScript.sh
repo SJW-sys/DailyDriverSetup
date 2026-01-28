@@ -99,12 +99,14 @@ Welcome_Message() {
     echo '  or in the event of needing to setup a server quickly.'
     echo '================================================================================================================='
     echo ' [exit by hitting ctrl+c]'
-    sleep 18
+    sleep 16
 }
 
 #Function: This function setups some core basic functionality I expect explicitly on all linux systems I use
 Baseline() {
     clear
+    echo "checking core system functionality requirements"
+    sleep 2
     Install_All_Updates
     Install_Vim
     Install_SUDO
