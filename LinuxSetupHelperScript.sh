@@ -29,7 +29,7 @@
 ##############################################
 
 #Defaults are set
-BaseBulkInstallFileDir="$PWD/DailyDriverSetup/HelperScriptFiles/InstallFiles"
+BaseBulkInstallFileDir="$PWD/HelperScriptFiles/InstallFiles"
 ScriptLogFilePath="/var/log/Linux_Setup_Helper_Script.log"
 
 ##############################################
