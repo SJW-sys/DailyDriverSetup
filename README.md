@@ -46,17 +46,25 @@ AI was used to speed up scripting (~10-15%), primarily to script out the bulk in
 
 ### Workflow:
 
-1) clone git repository to your local machine in your home directory
+1) Clone git repository to your local machine in your home directory.
 
   `git clone https://github.com/SJW-sys/DailyDriverSetup.git`
 
-2) modify the install files with the desired installs you want. **IMPORTANT** these files are expecting one package per a line in the files.
+2) navigate into the directory:
 
-3) run the script, its expecting to run with sudo permissions
+  `cd DailyDriverSetup/`
 
-  `sudo shell LinuxSetupHelperScript.sh`
+3) Always review external scripts, commands and tools before executing on your system.
 
-4) follow prompts for setup of your environment
+  `less LinuxSetupHelperScript.sh`
+
+4) Modify the install files with the desired installs you want. **IMPORTANT** these files are expecting one package per a line in the files.
+
+5) run the script, its expecting to run with sudo permissions
+
+  `sudo bash LinuxSetupHelperScript.sh`
+
+6) follow prompts for setup of your environment
 
 ## Manual process not covered by script at this time:
 - Deb file installs that you have locally
