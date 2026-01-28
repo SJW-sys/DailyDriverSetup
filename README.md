@@ -42,6 +42,7 @@ AI was used to speed up scripting (~10-15%), primarily to script out the bulk in
 - Debian based linux system
 - sudo installed
 - git installed
+- An account with sudo level permissions.
 
 ### Workflow:
 
