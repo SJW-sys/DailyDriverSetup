@@ -371,7 +371,9 @@ Install_ClamAV() {
     sleep 60
 
     #make wuarantine space
-    mkdir /root/quarantine
+    mkdir -p /var/lib/clamav/quarantine
+    chown clamav:clamav
+    chmod 660 /var/lib/clamav/quarantine
 
     # Custom add cron runtime 
     if [[ $CustomizeSettings == "y" || $CustomizeSettings == "Y" ]]; then
@@ -383,7 +385,7 @@ Install_ClamAV() {
     fi
 
     # Schedule cron job for full system scan every Sunday at 1 AM
-    echo "0 $CronTimeClamAV * * 0 root /usr/bin/clamdscan --fdpass --log=/var/log/clamav/clamdscan.log --move=/root/quarantine /" | tee /etc/cron.d/clamdscan
+    echo "0 $CronTimeClamAV * * 0 clamav /usr/bin/clamdscan --fdpass --log=/var/log/clamav/clamdscan.log --move=/var/lib/clamav/quarantine /" | tee /etc/cron.d/clamdscan
 
     # Commenting Out from scan several system default directories that contain false positives
     printf "ExcludePath ^/proc\nExcludePath ^/sys\nExcludePath ^/run\nExcludePath ^/dev\nExcludePath ^/snap\nExcludePath ^/root/quarantine\n" | tee -a /etc/clamav/clamd.conf
