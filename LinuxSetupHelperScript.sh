@@ -328,8 +328,8 @@ Install_Crowdsec() {
     echo "Installing Crowdsec..."
     sleep 2
 
-    #setup repo
-    curl -s https://install.crowdsec.net | bash
+    #setup repo - typically prepackaged on many linux flavors
+    #curl -s https://install.crowdsec.net | bash
 
     #install sec engine
     apt install -y crowdsec
