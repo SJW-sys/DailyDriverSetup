@@ -48,7 +48,7 @@ AI was used to speed up scripting (~10-15%) in the last refactor, primarily to s
 
   `git clone https://github.com/SJW-sys/DailyDriverSetup.git`
 
-2) navigate into the directory:
+2) Navigate into the directory:
 
   `cd DailyDriverSetup/`
 
@@ -61,11 +61,11 @@ AI was used to speed up scripting (~10-15%) in the last refactor, primarily to s
   `cp ./ExampleFiles/* ./HelperScriptFiles/InstallFiles/`</br>
   `vim ./HelperScriptFiles/InstallFiles/FILENAMEHERE`
 
-5) run the script, its expecting to run with sudo permissions
+5) Run the script, its expecting to run with sudo permissions:
 
   `sudo bash LinuxSetupHelperScript.sh`
 
-6) follow prompts for setup of your environment
+6) Follow in script prompts for setup of your environment.
 
 ### Manual processes not covered by script at this time:
 - bulk Deb package installs that you have locally
