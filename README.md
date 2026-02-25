@@ -58,7 +58,7 @@ AI was used to speed up scripting (~10-15%) in the last refactor, primarily to s
 
 4) Copy and Modify the install bulk files with the desired installs you want, FILENAMEHERE used as a placeholder. **IMPORTANT** these files are expecting one package per a line in the files, and with the expected filenames.
 
-  `cp ./ExampleFiles/* ./HelperScriptFiles/InstallFiles/`<\br>
+  `cp ./ExampleFiles/* ./HelperScriptFiles/InstallFiles/`</br>
   `vim ./HelperScriptFiles/InstallFiles/FILENAMEHERE`
 
 5) run the script, its expecting to run with sudo permissions
