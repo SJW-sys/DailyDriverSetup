@@ -1,2 +1,0 @@
-chrony
-openssh-server
