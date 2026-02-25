@@ -1,0 +1,2 @@
+chrony
+openssh-server

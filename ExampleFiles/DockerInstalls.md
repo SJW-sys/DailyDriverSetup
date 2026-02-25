@@ -1,0 +1,1 @@
+caddy/caddy:latest
