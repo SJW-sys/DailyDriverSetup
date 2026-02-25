@@ -31,7 +31,7 @@ It installs packages, configures services, sets up security tools, and more.
    2) Installs basic tools and hardening I expect on every linux box I use
    3) access a menu to call functions to execute. Functions either pull in and install functions/apps via a markdown file-as-code, or complete special complex installs.
 
-### AI Note:
+## AI Note:
 AI was used to speed up scripting (~10-15%) in the last refactor, primarily to script out the bulk install functions using context files and rules. Much of the code and concept was written and self designed based on experience and continuous development of this script over the last 10 years.
 
 ## Deployment
