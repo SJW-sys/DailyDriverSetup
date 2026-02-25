@@ -270,11 +270,11 @@ Install_UFW() {
     apt install -y ufw
     ufw default deny incoming
     ufw default deny outgoing
-    ufw reject 22 #ssh
-    ufw allow out 443/tcp #https, used for updates
-    ufw allow out 53 #dns
-    ufw allow out 80/tcp #http, used for updates
-    ufw allow out 123/udp #ntp
+    ufw reject 22 comment 'reject default ssh'
+    ufw allow out 443/tcp comment 'https for updates and browsing'
+    ufw allow out 53 comment 'dns'
+    ufw allow out 80/tcp comment 'http'
+    ufw allow out 123/udp comment 'ntp'
 
     read -p "Would you like to add any custom (incoming or outgoing) ports? (y/n): " ConfirmedPortCustomAddChoice
     if [[ $ConfirmedPortCustomAddChoice == "y" || $ConfirmedPortCustomAddChoice == "Y" ]]; then
@@ -330,7 +330,7 @@ Install_Crowdsec() {
     echo "Installing Crowdsec..."
     sleep 2
 
-    #setup repo - typically prepackaged on many linux flavors
+    #setup repo - typically prepackaged on many linux flavors now
     #curl -s https://install.crowdsec.net | bash
 
     #install sec engine
