@@ -90,6 +90,8 @@ Welcome_Message() {
     echo 'Welcome to your personal Linux Install Helper!'
     echo
     echo '**IMPORTANT** this script will complete several sensitive privileged actions that could compromise your system.'
+    echo
+    echo 'much of this script is 'Interactive' which will stall part of the configuration, without human input. This is intended design.'
     echo 
     echo 'This script is expected to be used on a brand new Debian based install with minium modifications.'
     echo 'The goal would be to automate as much as the setup as possible given my knowledge at this time, as well as'
@@ -281,7 +283,7 @@ Install_UFW() {
 
             echo "What (incoming) port would you like to add?"
             echo "please only type in one port, prompt will loop"
-            read -p "(port or [spacebar]): " PortCustomAddChoice
+            read -p "(port or [enter]): " PortCustomAddChoice
 
             ufw allow in $PortCustomAddChoice
 
@@ -298,7 +300,7 @@ Install_UFW() {
 
             echo "What (outgoing) port would you like to add?"
             echo "please only type in one port, prompt will loop"
-            read -p "(port or [spacebar]): " PortCustomAddChoice
+            read -p "(port or [enter]): " PortCustomAddChoice
 
             ufw allow out $PortCustomAddChoice
 
@@ -743,6 +745,9 @@ Install_Docker_Portainer() {
 
     # Remove Docker sh
     rm get-docker.sh
+
+    mkdir /opt/docker
+    sudo chown root:docker /opt/docker
 
     echo "============================="
     echo "Docker install complete."
