@@ -1,4 +1,7 @@
 DeploymentFiles/.env
+HelperScriptFiles/InstallFiles/Debinstalls/**
+HelperScriptFiles/InstallFiles/Debinstalls/**/**
+HelperScriptFiles/InstallFiles/*.md
 Backups
 Backups/**
 Backups/**/**
