@@ -56,7 +56,10 @@ AI was used to speed up scripting (~10-15%) in the last refactor, primarily to s
 
   `less LinuxSetupHelperScript.sh`
 
-4) Modify the install bulk files with the desired installs you want. **IMPORTANT** these files are expecting one package per a line in the files.
+4) Copy and Modify the install bulk files with the desired installs you want, FILENAMEHERE used as a placeholder. **IMPORTANT** these files are expecting one package per a line in the files, and with the expected filenames.
+
+  'cp ./ExampleFiles/* ./HelperScriptFiles/InstallFiles/'
+  'vim ./HelperScriptFiles/InstallFiles/FILENAMEHERE'
 
 5) run the script, its expecting to run with sudo permissions
 
@@ -65,6 +68,7 @@ AI was used to speed up scripting (~10-15%) in the last refactor, primarily to s
 6) follow prompts for setup of your environment
 
 ### Manual processes not covered by script at this time:
-- Deb file installs that you have locally
-- Software configurations
+- bulk Deb package installs that you have locally
+- Software exclusive configurations
 - Display configurations
+- Setting configurations
